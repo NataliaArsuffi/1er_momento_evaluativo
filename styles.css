@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #dad5d5ee;
+}
+.navbar{
+    display: flex;
+    align-items: right;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 10px;
+}
+.espacio{
+    margin-left: 100px;
+}
+.form-group{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 180px;
+    color: rgb(170, 170, 168);
+    font-size: large;
+    cursor: text;
+}
+
+.imgmenu{
+    display: inline-block;
+    justify-content: right;
+    text-align: center;
+    align-items: right;
+    margin-left: 2px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 5px 5px; 
+}
+
+.navbar img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+}
+
+.container{
+    width: 770px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px; 
+    color: rgb(0, 0, 0);
+    position: left;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+    line-height: 1px;
+}
+
+.fondo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;  
+    background-color: #ffffff; 
+}
+
+.image {
+    overflow: hidden;
+    width: 900px;
+    height: 180px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.foto{
+    display: flex;
+    background-color: rgb(255, 255, 255);  
+}
+
+.foto img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    margin-top: -90px;
+    padding: 20px;
+    border: 10px;
+    border-color: white;
+    border-image: 5px;
+}
+
+.titulo{
+    margin-left: 5px;
+    margin-top: -30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding:1px;
+}
+
+.flex{
+    display: flex;
+}
+
+.container button{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(16, 20, 238);
+    border-color:  rgb(16, 20, 238);
+    border-radius: 20%;
+    margin-right: 5px;
+}
+
+.colum{
+    columns: 2;
+}
+
+.derecha{
+    margin-left: 90px;
+}
+
+/*cuadros*/
+
+.profile-cards {
+    margin-top: 10px;
+    box-shadow: 0 0 5px;
+    flex-wrap: wrap; /* Permitir el ajuste de línea */
+    justify-content: left;
+    border-radius: 8px;
+    padding: 5px;
+    background-image: #8f8989d2;
+    color: white;
+    flex:  150px;
+    border: #8a8484e0;
+}
+
+.profile-cards h6{
+    color: #2d1fee;
+}
+
+.botonesp{
+    width: 100%;
+    position: center;
+}
